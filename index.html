@@ -2,49 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Residential Area</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Residential Area</title>
 
-    <!-- css -->
-     <link rel="stylesheet" href="style.css">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Daisy UI -->
+  <!-- Daisy UI -->
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Gogle Font -->
+  <!-- Gogle Font -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <!--font awesome Icon -->
+  <!--font awesome Icon -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Tailwind css -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-               ' btn-background ': '#ABEF5F',
-               
-              }
-            }
+  <!-- Tailwind css -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            ' btn-background ': '#ABEF5F',
+
           }
         }
-      </script>
+      }
+    }
+  </script>
 </head>
 
 <body class="manrope">
-<!-- Header Section -->
-    <header class="container mx-auto ">
-    <!-- nav bar -->
-    <div class="navbar  p-5">
+  <!-- Header Section -->
+  <header class=" bg-gradient-to-t from-slate-100 to-slate-100">
+    <section class="container mx-auto">
+      <!-- nav bar -->
+      <div class="navbar  p-5">
         <div class="navbar-start ">
           <i class="fa-solid fa-arrow-right mr-2 bg-[#ABEF5F] p-2 rounded-full -rotate-45"></i>
           <h1 class="text-2xl font-black">Rinterio</h1>
@@ -61,39 +64,78 @@
         <div class="navbar-end space-x-3 ">
           <i class="fa-solid fa-magnifying-glass bg-white border border-gray-300 rounded-full  p-2 hidden md:block"></i>
           <i class="fa-solid fa-cart-shopping bg-white border border-gray-300 rounded-full p-2 hidden md:block"></i>
-          <a class="btn bg-[#ABEF5F] rounded-full text-xl pt-1 font-black hidden md:block">Book Consult <i class="fa-solid fa-arrow-right ml-2 bg-black text-white p-2 rounded-full -rotate-45"></i></a>
+          <a class="btn bg-[#ABEF5F] rounded-full text-xl pt-1 font-black hidden md:block">Book Consult <i
+              class="fa-solid fa-arrow-right ml-2 bg-black text-white p-2 rounded-full -rotate-45"></i></a>
           <i class="fa-solid fa-bars bg-white border border-gray-300 rounded-full p-2 md:hidden"></i>
         </div>
       </div>
-    <!-- banner part -->
-      <section class="p-2" >
+      <!-- banner part -->
+      <section class="p-2">
         <div class="card card-compact">
           <figure class=" mx-auto">
-            <img
-              src="./images/banner.png"
-              alt="Shoes" />
+            <img src="./images/banner.png" alt="Shoes" />
           </figure>
           <div class="card-body items-center space-y-5">
-            <h1 class="card-title text-3xl md:text-5xl  font-black text-center lg:w-3/4 ">A barn house of this design has a  striking appearance</h1>
-            <p class="text-center md:font-semibold lg:w-3/4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal  accents, and large windows that flood the space with natural light.</p>
+            <h1 class="card-title text-3xl md:text-5xl  font-black text-center lg:w-3/4 ">A barn house of this design
+              has a striking appearance</h1>
+            <p class="text-center md:font-semibold lg:w-3/4">The barn house captivates with its blend of rustic charm
+              and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the
+              space with natural light.</p>
             <div class="card-actions justify-end">
               <button class="btn bg-[#acef5f8f] rounded-full border border-[#ABEF5F] font-extrabold ">View Details
-                <i class="fa-solid fa-arrow-right ml-2 bg-[#ABEF5F] p-2 rounded-full -rotate-45"></i>
+                <i class="fa-solid fa-arrow-right ml-2 bg-[#abef5f] p-2 rounded-full -rotate-45"></i>
               </button>
-
             </div>
           </div>
         </div>
       </section>
-    </header>
-<!-- body part -->
-    <main>
+    </section>
+  </header>
+  <!-- body part -->
+  <main>
+    <!--  part-1  -->
+    <section class="part-1 bg-stone-100 ">
+      <div class="card card-side  p-0 md:p-5 grid grid-cols-1 md:grid-cols-2">
+        <div class="card-body flex-1">
+          <div class="p-2 h-16 w-32 border border-dashed border-gray-300 hidden md:block">
+            <img src="./images/Vector.png" alt="">
+          </div>
+          <div class="ml-2 md:ml-10 space-y-5 ">
+            <h4 class="font-bold text-center md:text-left"><i class="fa-solid fa-arrow-right p-2"></i> About us</h4>
+            <h1 class="card-title text-3xl lg:text-5xl font-black">We design thoughtful, liveable spaces</h1>
+            <p class="text-lg">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <div class="grid grid-cols-2 mt-6 bg-white">
+            <div class="ml-4 md:ml-16 ">
+              <img src="./images/commercial.png" alt="">
+            </div>
+            <div class="ml-0 lg:-ml-20 w-11/12 md:w-10/12 space-y-2">
+              <h2 class="text-2xl font-extrabold">Commercial</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 mt-6 bg-white">
+            <div class="ml-4 md:ml-16 ">
+              <img src="./images/residential.png" alt="">
+            </div>
+            <div class="ml-0  lg:-ml-20 w-11/12 md:w-10/12 space-y-2">
+              <h2 class="text-2xl font-extrabold">Residetial</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+        </div>
+        <figure class="flex-1 p-5 lg:p-16">
+          <img src="./images/Rectangle.png" alt="Movie" />
+        </figure>
+      </div>
+    </section>
+    <!-- part 2 -->
+  </main>
 
-    </main>
-<!-- footer part -->
-    <footer>
+  <!-- footer part -->
+  <footer>
 
-    </footer>
+  </footer>
 
 </body>
 
