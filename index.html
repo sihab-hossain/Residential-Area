@@ -40,6 +40,31 @@
       }
     }
   </script>
+  <!-- css -->
+   <style>
+    .manrope{
+    font-family: "Manrope", system-ui;
+    }
+    .part-4{
+     position: relative;
+    }
+    .part-4::before{
+      background-image: url(./images/bg.jpg);
+      content: '';
+      position: absolute;
+      inset: 0;
+      opacity: 0.6;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .text-area{
+      isolation: isolate;
+    }
+    .input-items{
+      isolation: isolate;
+    }
+   </style>
 </head>
 
 <body class="manrope">
@@ -97,8 +122,8 @@
     <section class="part-1 bg-stone-100 ">
       <div class="card card-side  p-0 md:p-5 grid grid-cols-1  lg:grid-cols-2">
         <div class="card-body flex-1">
-          <div class="p-2 h-16 w-32 border border-dashed border-gray-300 hidden md:block">
-            <img src="./images/Vector.png" alt="">
+          <div class="p-2 h-16 w-32  hidden md:block">
+            <img src="./images/Vector.png" alt="" class="rotate-12">
           </div>
           <!-- card section -->
           <div class="ml-2 md:ml-10 space-y-5 ">
@@ -127,8 +152,8 @@
           </div>
         </div>
         <!-- img secion -->
-        <figure class="flex-1 p-5 lg:p-16">
-          <img src="./images/Rectangle.png" alt="Movie" />
+        <figure class="flex-1 p-5  ">
+          <img src="./images/Rectangle.png" alt="Movie" class="p-5 lg:p-10" />
         </figure>
       </div>
     </section>
@@ -239,6 +264,31 @@
          </div>
       </div>
     </section>
+    <!-- part 4 -->
+     <section class=" part-4">
+     <div class="container mx-auto">
+        <!-- text area -->
+        <div class="text-area text-center space-y-5 mt-10">
+          <button class="btn bg-lime-100 rounded-full font-extrabold mt-10">
+            <i class="fa-solid fa-arrow-right  p-1 rounded-full "></i>
+            Let’s Connect
+          </button>
+          <h1 class="text-4xl md:text-5xl font-black">Let’s Discuss Next Project</h1>
+          <p class="w-full lg:w-2/4 mx-auto text-lg"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <!-- input item -->
+         <div class="grid grid-cols-1  md:grid-cols-2 gap-5 input-items p-4 mt-5 mb-5 md:mt-10">
+          <input type="text" placeholder="First Name *" class="input input-bordered w-full max-w-2xl mx-auto bg-white text-black rounded-full"/>
+          <input type="text" placeholder="Last Name *" class="input input-bordered w-full max-w-2xl mx-auto bg-white text-black rounded-full"/>
+          <input type="text" placeholder="Phone Number *" class="input input-bordered w-full max-w-2xl mx-auto bg-white text-black rounded-full"/>
+          <input type="text" placeholder="Email Number *" class="input input-bordered w-full max-w-2xl mx-auto bg-white text-black rounded-full"/>
+          <textarea class="textarea textarea-bordered col-span-1 md:col-span-2 h-40 " placeholder="Write your message here"></textarea>
+          <button class="btn bg-[#ABEF5F] rounded-full  font-black col-span-1 md:col-span-2">Send Mail
+            <i class="fa-solid fa-arrow-right ml-2 bg-[#000000] text-white p-2 rounded-full -rotate-45"></i>
+          </button>
+         </div>
+    </div>
+     </section>
   </main>
 
   <!-- footer part -->
